@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0px;
+	margin:0px;
+}
+body{
+
+	background-color:#CCC;
+}
+
+.principal{
+	width:960px;
+	height:auto;
+	
+	overflow:hidden;
+	margin:40px auto auto auto;
+	background-color:#FFF;
+}
+
+.cabecera{
+	width:960px;
+	height:auto;
+	background-color: #FFF;
+}
+.logotipo{
+	width:960px;
+	height:235px;
+	margin: auto auto 20px auto;
+}
+
+.panel{
+	width:900px;
+	height:40px;
+	margin:20px 30px 20px 30px; 
+	text-align: center;
+	
+}
+.botones li{
+	float:left;
+	list-style:none;
+	width:225px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	display:block;
+	
+}
+.botones li a{
+	background-color:#096;
+	text-decoration:none;
+	display:block; 
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+
+}
+.botones li a:hover{
+	background-color:#0F9;
+	text-decoration:none;
+	display:block; 
+	font-family:Verdana, Geneva, sans-serif;
+	color:#033;
+	box-shadow: 0px 0px 10px rgba(0,0,0,1) ;
+}
+.botones li a:active{
+	background-color:#6FF;
+	text-decoration:none;
+	display:block; 
+	font-family:Verdana, Geneva, sans-serif;
+	color:#096;
+	box-shadow: 0px 0px 10px rgba(0,0,0,1) ;
+}
+.renglon{
+	width:960px;
+	height:8px;
+	background-image:url(../imagenes/proyecto_web_11.jpg);
+	background-repeat:repeat-x;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);		
+}
+/*contenido*/
+.contenido{
+	width:900px;
+	margin: 20px auto auto auto;
+}
+.imagen1{
+	float:left;
+	width:253px;
+	height:254px;
+}
+.info{
+	float:right;
+	width:620px;
+	height:154px;
+	text-align:justify ;
+	
+}
+.imagen2{
+	text-align:center;
+	width:620px;
+	margin:25px auto 25px auto;
+	float:right;	
+}
+.banne{
+	width:900px;
+	height:auto;
+	float:right;
+	margin:10px auto 10px auto;
+}
+
+.iconos li{
+	
+	width:300px;
+	height:50px;
+	float:left;
+	text-align:center ;
+	line-height:38px;
+	list-style:none;
+	display:block;
+
+}
+.iconos li a{
+	display:block;
+	color: #cc66cc;
+	text-transform:uppercase;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold; 
+	text-decoration:none;
+	background-repeat:no-repeat;
+	background-image:url(imagenes/proyecto_web_29.jpg);
+	background-position:center;
+	
+}
+.iconos li a:hover{
+	text-decoration:underline;
+	color:#066;
+}
+.iconos li a:active{
+	text-decoration:underline;
+	color:#0FC;
+}
+.imagen3{
+	width:300px;
+	height:250px;
+	float:left;
+	text-align:center ;
+	margin:auto 5px auto auto;
+	
+	background-position:center;
+	background-repeat:no-repeat;
+	
+}
+
+.imagen3 a{
+	width:300px;
+	height:250px;
+		
+}
+.imagen3 a:hover{
+	width:350px;
+	height:300px;
+}
+.imagen4{
+	width:290px;
+	height:250px;
+	text-align:center ;
+	float:left;
+
+}
+.imagen5{
+	width:300px;
+	height:250px;
+	float:left;
+	text-align:center ;
+	margin:auto auto auto 5px;
+}
+p{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;	
+	
+}
+
+.piedepagina{
+	width:800px;
+	height:auto;
+		background-image:url(imagenes/proyecto_web_51.jpg);
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		float:left;
+		margin:10px auto 10px auto;
+		padding:0px 60px 0px 60px;
+
+}
+.banner{
+	width:900px;
+	height:150px;
+	margin:10px 20px;
+	background-color:#FFF;
+	box-shadow: 0px 0px 10px rgba(0,0,0,1) ;
+	margin:auto auto 20px auto;
+	text-align:center;
+}
+
+.banner{
+	width:900px;
+	height:150px;
+	margin:10px 20px;
+	background-color:#FFF;
+	box-shadow: 0px 0px 10px rgba(0,0,0,1) ;
+	margin:auto auto 20px auto;
+	text-align:center;
+}
+.banner img{
+	width:300px;
+	height:100px;
+	margin:25px 75px;
+	float:left;
+	
+}
+
+.conten{
+	width:940px;
+	height:250px;
+	margin:auto 10px 10px 10px;
+	background-color:#9FF;
+	box-shadow: 0px 0px 10px rgba(0,0,0,1) ;
+}
+#imgn{
+	width:900px;
+	height:220px;
+	margin:10px 20px;	
+	text-align:center;	
+	display:block;
+}
+
+#imgn a img{
+	display:block;
+	width:200px;
+	height:150px;
+	float:left;
+	margin:30px 38px 30px 55px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,1.5) ;
+	text-align:center;
+}
+#imgn a img:hover{
+	width:250px;
+	height:200px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,1.5) ;
+	margin:5px 20px;
+}
+.acordion{
+	width:800px;
+	height:400px;
+	margin:50px auto;
+	border:solid 10px black;
+	box-shadow:0px 0px 5px 2px rgba(0,0,0,0.5);
+	overflow:hidden;
+}
+.acordion li {
+	width:133.33px;
+	height:400px;
+	display:block;
+	float:left;
+	list-style:none;
+	box-shadow:0px 0px 5px 2px white;
+	transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-ms-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	webkit-transition:all 0.4s ease-in-out;
+}
+#slide1 {
+	background-image:url(../../../../Proyecto%20Web/imagenes/1.jpg);
+	background-position:center;
+}
+#slide2 {
+	background-image:url(../../../../Proyecto%20Web/imagenes/2.jpg);
+	background-position:center;
+}
+#slide3 {
+	background-image:url(../../../../Proyecto%20Web/imagenes/3.jpg);background-position:center;
+}
+#slide4 {
+	background-image:url(../../../../Proyecto%20Web/imagenes/4.jpg);
+	background-position:center;
+}
+#slide5 {
+	background-image:url(../../../../Proyecto%20Web/imagenes/5.jpg);
+	background-position:center;
+}
+#slide6 {
+	background-image:url(../../../../Proyecto%20Web/imagenes/6.jpg);	background-position:center;
+}
+.acordion ul:hover li {
+	width:75px;
+}
+.acordion ul li:hover {
+	width:425px;
+}
+
+</style>
